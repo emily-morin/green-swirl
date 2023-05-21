@@ -1,22 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Confetti from 'react-confetti';
 
 function App() {
   return (
     <div className="App">
+      <Confetti />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Sunday funday</h1>
+        <p>🍨</p>
       </header>
     </div>
   );
