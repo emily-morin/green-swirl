@@ -1,13 +1,12 @@
 import './App.css';
-import Confetti from 'react-confetti';
+import Spirals from './Spirals';
 
 function App() {
   return (
     <div className="App">
-      <Confetti />
       <header className="App-header">
-        <h1>Sunday funday</h1>
-        <p>🍨</p>
+        <h1>Green world</h1>
+        <Spirals />
       </header>
     </div>
   );
